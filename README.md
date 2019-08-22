@@ -19,12 +19,12 @@ The work is published at Harmful Algae Journal. 2018 Mar;73:110-118. https://doi
 ## Technologies 
 
 Project is created with:
-* MySQL 
+* MySQL
 * R Studio
 
 ## Steps of statistical procedures
 
-STEP 1 - Prepare all the time series data (add the P variable(s) and the time series for targeted phytoplankton species). Here I use MySQL as a tool to preprocess the CB datasets (such as data cleaning and transformation; https://datahub.chesapeakebay.net/). 
+STEP 1 - Prepare all the time series data (add the P variable(s) and the time series for targeted phytoplankton species). Here I use MySQL as a tool to do preprocessing (i.e., data cleaning and transformation) for CB datasets (https://datahub.chesapeakebay.net/). 
 
 STEP 2 - Check trend presence in each variable (e.g., use ACF plots [linear decay might be a signal of a trend] or WAVK test [small p-values tell about systematic change that could be a trend or a seasonal/cyclical component]).
 If no obvious trend found, proceed with the following steps.
@@ -37,7 +37,7 @@ $ lag2.plot(Xvariable, Yvariable, Klag)
 
 STEP 3.2 - Explore the K lags of all your X-variables (change X-variable one by one). This function also reports the linear correlation coefficients in the top right corner that should be the same/similar as calculated by CCF. The difference with CCF is that i) you will see the actual form of relationship from the plots; ii) you will not see the future lags, which is okay, since you cannot know future values of the X-variables anyway, without predicting them separately and introducing even more uncertainty into the model for you Y-variable.
 
-STEP4 - Combine the variables (Y, lagged X, and non-lagged X that you found relevant) in a matrix (e.g., call it "D") and check correlations again, check if there any multicollinearity, with |r|>0.8, use
+STEP 4 - Combine the variables (Y, lagged X, and non-lagged X that you found relevant) in a matrix (e.g., call it "D") and check correlations again, check if there any multicollinearity, with |r|>0.8, use
 ```
 $ library(GGally)
 $ library(Hmisc)
@@ -50,7 +50,7 @@ STEP 5 - Use all the variables and estimate a 'full model':
 $ model =lm(Y~all pre-selected variables)
 ```
 
-STEP 6 - Automatically shrink the model by selecting variables based on AIC:
+STEP 6 - Automatically shrink the model by selecting variables based on AIC, use
 ```
 $ library(MASS)
 $ stepAIC(model)
