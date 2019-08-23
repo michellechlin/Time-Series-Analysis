@@ -59,3 +59,4 @@ STEP 7 - Do diagnostics checks for the new model's residuals (ACF, PACF, Q-Q plo
 
 ## Reference
 Lin, C.-H., Lyubchich, V. and Glibert, P. M. (2018) Time series models of decadal trends in the harmful algal species Karlodinium veneficum in Chesapeake Bay. Harmful Algae, 73, 110-118.
+Lyubchich, V., Gel, Y. R. and El‐Shaarawi, A. (2013) On detecting non‐monotonic trends in environmental time series: a fusion of local regression and bootstrap. Environmetrics, 24, 209-226.
