@@ -1,4 +1,4 @@
-## Time Series Model
+## Time Series Models
 * [General Info](#general-info)
 * [Technologies](#technologies)
 * [Steps](#steps)
