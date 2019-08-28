@@ -59,6 +59,6 @@ $ stepAIC(model)
 STEP 7 - Do diagnostics checks for the new model's residuals (ACF, PACF, Q-Q plots, etc.). If needed, you can incorporate ARMA structure at this stage (based on ACF and PACF), as well as a different distribution (based on the Q-Q and residuals vs. time plots). 
 
 ## References
-[1] Lin, C.-H., Lyubchich, V. and Glibert, P. M. (2018) Time series models of decadal trends in the harmful algal species Karlodinium veneficum in Chesapeake Bay. Harmful Algae, 73, 110-118.[PDF] (https://drive.google.com/drive/u/1/folders/1IJolrV8nEiwkjVli9o1s9dMSVjRX-TRd)
+[1] Lin, C.-H., Lyubchich, V. and Glibert, P. M. (2018) Time series models of decadal trends in the harmful algal species Karlodinium veneficum in Chesapeake Bay. Harmful Algae, 73, 110-118. [Email me for PDF]
 
 [2] Lyubchich, V., Gel, Y. R. and El‐Shaarawi, A. (2013) On detecting non‐monotonic trends in environmental time series: a fusion of local regression and bootstrap. Environmetrics, 24, 209-226.
