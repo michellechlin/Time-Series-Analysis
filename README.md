@@ -1,5 +1,5 @@
 
-![Conceptual](https://github.com/michellechlin/Time-Series-Analysis/blob/master/Conceptual%20diagram%20of%20this%20project.png)
+![Conceptual Diagram](https://github.com/michellechlin/Time-Series-Analysis/blob/master/Conceptual%20diagram%20of%20this%20project.jpg)
 
 ## Time Series Models
 * [General Info](#general-info)
