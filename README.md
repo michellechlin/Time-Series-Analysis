@@ -1,3 +1,6 @@
+
+![Time-Series Paper Logo](Conceptual diagram of this project.jpg)
+
 ## Time Series Models
 * [General Info](#general-info)
 * [Technologies](#technologies)
