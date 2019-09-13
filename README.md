@@ -1,4 +1,7 @@
-## Time series models
+
+![Conceptual diagram of this project](Conceptual diagram of this project.png)
+
+## Time Series Models
 * [General Info](#general-info)
 * [Technologies](#technologies)
 * [Steps](#steps)
@@ -14,6 +17,7 @@ ii) Explore lagged relationships along with non-lagged relationships in a full t
 
 iii) Evaluate interactions among predator, nutrients and preys simultaneously.
 
+The work is published at Harmful Algae Journal. 2018 Mar;73:110-118. https://doi.org/10.1016/j.hal.2018.02.002
 
 ## Technologies 
 
@@ -57,5 +61,7 @@ $ stepAIC(model)
 
 STEP 7 - Do diagnostics checks for the new model's residuals (ACF, PACF, Q-Q plots, etc.). If needed, you can incorporate ARMA structure at this stage (based on ACF and PACF), as well as a different distribution (based on the Q-Q and residuals vs. time plots). 
 
-## Reference
-Lin, C.-H., Lyubchich, V. and Glibert, P. M. (2018) Time series models of decadal trends in the harmful algal species Karlodinium veneficum in Chesapeake Bay. Harmful Algae, 73, 110-118.
+## References
+[1] Lin, C.-H., Lyubchich, V. and Glibert, P. M. (2018) Time series models of decadal trends in the harmful algal species Karlodinium veneficum in Chesapeake Bay. Harmful Algae, 73, 110-118. [Email me for PDF]
+
+[2] Lyubchich, V., Gel, Y. R. and El‐Shaarawi, A. (2013) On detecting non‐monotonic trends in environmental time series: a fusion of local regression and bootstrap. Environmetrics, 24, 209-226.
