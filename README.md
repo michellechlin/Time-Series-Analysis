@@ -1,5 +1,5 @@
 
-![Conceptual diagram of this project](Conceptual diagram of this project.png)
+![Conceptual](Conceptual diagram of this project.png)
 
 ## Time Series Models
 * [General Info](#general-info)
